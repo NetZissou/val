@@ -1,0 +1,20 @@
+Package: val
+Title: Tidy validation and unit tesing package for data transformation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Net", "Zhang", , "zhang.11091@osu.edu", role = c("aut", "cre"))
+Description: The goal of `val` is to create a unit testing culture for data cleaning tasks using R. `val` could enable R users to specify table schema without knowing JSON, YAML, SQL, and designing a database. Users would create schema objects from `val` and work towards the detailed schema until their data has passed the validation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    crayon,
+    dplyr,
+    glue,
+    lubridate,
+    magrittr,
+    purrr,
+    readr,
+    tibble
